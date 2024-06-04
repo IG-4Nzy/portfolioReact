@@ -1,13 +1,16 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://IG-4Nzy.github.io/portfolioReact",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -15,6 +18,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "animate.css": "^4.1.1",
     "framer-motion": "^11.2.10",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

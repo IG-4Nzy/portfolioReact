@@ -92,7 +92,7 @@ export function Skills() {
                     <div className="flex justify-between w-[20rem] md:border-t-2 border-color2 py-5 md:w-[40rem] md:mt-10 pt-4">
                         <div>
                             <img className="w-[10rem] md:w-[20rem]" src="images/seeMyMachines.png"></img>
-                            <p className="text-color5 md:text-2xl">Software Devoloper</p>
+                            <p className="text-color5 md:text-2xl">Software Developer</p>
                         </div>
                         <p className="text-color5 md:text-xl">2024 - Present</p>
                     </div>
